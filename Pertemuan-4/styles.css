@@ -1,0 +1,119 @@
+/* Reset dasar */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: rgb(236, 89, 21);
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+
+header nav ul {
+    display: flex;
+    gap: 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ffde59;
+}
+
+/* Hero section */
+.hero {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    color: #555;
+}
+
+.hero 
+
+/* News section */
+.news {
+    padding: 2rem 0;
+    background-color: #fff;
+}
+
+.news h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.news-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.news-container article {
+    background-color: #ecd25d;
+    border: 1px solid rgb(236, 89, 21);
+    border-radius: 5px;
+    padding: 1rem;
+    max-width: 300px;
+    text-align: center;
+}
+
+.news-container article img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.news-container article h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.news-container article p {
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #f39d64;
+    color: #000000;
+    font-size: 0.9rem;
+}

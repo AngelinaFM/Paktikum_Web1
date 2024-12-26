@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registrasi Sederhana</title>
+</head>
+<body>
+    <h2>Form Registrasi CPNS</h2>
+    <!-- Form diarahkan ke halaman terimakasih.html -->
+    <form action="" method="post">
+        <table border="1" width="100%">
+            <tr>
+                <td><label for="name">Nama:</label></td>
+                <td><input type="text" id="name" name="name" required></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Kata Sandi:</label></td>
+                <td><input type="password" id="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td><label for="address">Alamat:</label></td>
+                <td><input type="text" id="address" name="address" required></td>
+            </tr>
+            <tr>
+                <td><label for="birthplace">Tempat Lahir:</label></td>
+                <td>
+                    <!-- Dropdown untuk tempat lahir dengan daftar kota -->
+                    <select id="birthplace" name="birthplace" required>
+                        <option value="">Pilih Kota</option>
+                        <option value="Palu">Palu</option>
+                        <option value="Bandung">Bandung</option>
+                        <option value="Manado">Manado</option>
+                        <option value="Luwuk">Luwuk</option>
+                        <option value="Surabaya">Surabaya</option>
+                        <option value="Jakarta">Jakarta</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="birthdate">Tanggal Lahir:</label></td>
+                <td>
+                    <!-- Menggunakan input type="date" untuk memilih tanggal lahir -->
+                    <input type="date" id="birthdate" name="birthdate" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin:</td>
+                <td>
+                    <!-- Radio button untuk hanya satu pilihan jenis kelamin -->
+                    <input type="radio" id="gender_male" name="gender" value="Laki-Laki" required>
+                    <label for="gender_male">Laki-Laki</label>
+                    <input type="radio" id="gender_female" name="gender" value="Perempuan">
+                    <label for="gender_female">Perempuan</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <button type="submit">Daftar</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

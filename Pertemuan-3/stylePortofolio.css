@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+
+.navigasi {
+    background-color: #fcf7f7;
+    width: 100%;
+    height: 70px;
+    color: rgb(0, 0, 0);
+    position: fixed;
+}
+
+.logo {
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+
+.menu {
+    margin-left: 750px;
+    padding-top: 27px;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 55px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.menu ul li a:hover {
+    color: darkgrey;
+    font-style: italic;
+}
+
+.banner {
+    background-color: #ceb6f7;
+    height: 645px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.banner img{
+    border-radius: 10px;
+    height: 280px;
+    border: 6px solid rgb(234, 228, 236);
+    margin-top: 90px;
+}
+
+
+.banner h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.banner button {
+    margin-top: 55px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 50px;
+    border: none;
+}
+
+.banner button:hover {
+    background-color: #ceb6f7;
+    border: 1px solid white;
+    color: white;
+}
+
+h1 span::before{
+    content: '';
+    animation: gerak infinite 8s ease;
+    transform: translateY(-50%);
+    color: rgb(185, 55, 250);
+    font-family: 100px;
+}
+
+
+.about-me h1 {
+    font-size: 36px;
+    margin-top: 100px;
+}
+
+.about-me img {
+    height: 150px;
+    margin-bottom: 2px;
+    margin-top: 20px;
+}
+
+
+.about-me {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 350px;
+    justify-content: center;
+    align-items: center;
+    color: #ceb6f7;
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.about-me p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+@keyframes gerak {
+    0% {
+        content: 'Selamat Datang';
+    }
+    50% {
+        content: 'Saya Angelina Febriani Madesen';
+    }
+    100% {
+        content: 'Terimakasih Sudah Mampir';
+    }
+}
+
+
+.box-kiri, .box-tengah, .box-kanan{
+    width: 300px;
+    height: 280px;
+    background-color: #f0f0f0;
+    text-align: center;
+    color: #555;
+    padding: 30px 30px;
+    margin: 70px  20px 20px 55px;
+    border-radius: 5px;
+    float: left;
+    
+}
+
+.box-project{
+    margin-top: 100px;
+    text-align: center;
+    color: #ceb6f7;
+    align-content: center;
+}
+
+.box-project img{
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 13px;
+    margin-right: 4px;
+    padding: px 10px;
+}
+
+
+.box-project h3{
+    margin-top: 10x;
+    margin-bottom: 13px;
+    padding: 0px 20px;
+}
+
+.box-project p{
+    margin-top: 5px;
+    margin-bottom: 13px;
+    padding: 0px 20px;
+}
+
+
+
+
+.box-skill {
+    text-align: center;
+    color: #ceb6f7;
+    margin-top: 100px;
+    align-content: center;
+}
+
+.box-skill img {
+    height: 80px;
+    margin-top: 10px;
+}
+
+
+.box-kiri:hover, .box-tengah:hover, .box-kanan:hover{
+    background-color: #ceb6f7;
+    color: white;
+}
+
+.box-skill h3{
+    margin-top: 10x;
+    margin-bottom: 13px;
+    padding: 0px 20px;
+}
+
+.box-skill p{
+    margin-top: 5px;
+    margin-bottom: 13px;
+    padding: 0px 20px;
+}
+
+.footer {
+    background-color: #555;
+    width: 100%;
+    height: 40px;
+    color: white;
+    padding: 3px;
+    margin: 50px auto 0px;
+}
+
+
